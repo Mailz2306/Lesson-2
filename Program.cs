@@ -67,12 +67,13 @@ else{
 ● 918 -> 98
 
 ЗАДАЧА 2: 
-Задача No12. Работа в группах
-Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
+Задача No12. 
+Напишите программу, которая будет принимать на вход два числа и выводит, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток
+от деления.
 ● 34, 5 -> не кратно, остаток 4
 ● 16, 4 -> кратно
-123
-*/ 
+--------------
+
 
 Random random = new Random();
 int randomValue = random.Next(100, 1000);
@@ -83,9 +84,29 @@ int secondDigit = randomValue % 10;
 
 Console.WriteLine($"{randomValue} -> {firstTwoDigits}{secondDigit}"); 
 
+------------------- 
+РЕШЕНИЕ ВТОРОЙ ЗАДАЧИ 
 
+/*Console.Write("Введите первое число");
+int number1 = int.Parse(Cpnsole.ReadLine()); 
 
+Console.Write("Введите второе число");
+int number2 = int.Parse(Cpnsole.ReadLine());
 
+int result = number1 % number2; 
+
+if (result == 0)
+{
+    Console.Write(result);
+    Console.Write("кратно");
+}
+else 
+{
+    Console.Write(result);
+    Console.Write("не кратно");
+} 
+*/ 
+------------------------ 
 
 
 
