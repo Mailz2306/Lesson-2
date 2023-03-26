@@ -120,10 +120,8 @@ else
 
 ----------------------------
 
-Console.WriteLine("Введите ваше число и я проверю четное оно или нет");
-
+Console.WriteLine("Введите ваше число и я проверю кратно и оно 7 и 23");
 int a = int.Parse(Console.ReadLine());
-
 if (a % 7 == 0 & a % 23 == 0 ){
     Console.WriteLine($" {a} -> да");
 }
@@ -133,13 +131,13 @@ else {
 ------------------
 */ 
 
+Console.WriteLine("Введите два числа и я проверю являются ли одно из них квадратом второго");
 int a = int.Parse(Console.ReadLine());
-
 int b = int.Parse(Console.ReadLine());
-
 if (b == a * a | a == b * b){
-    Console.WriteLine($" {a},{b} -> да");
+    Console.WriteLine($"{a},{b} -> да является");
 }
 else {
-    Console.WriteLine($" {a},{b} -> нет");
+    Console.WriteLine($"{a},{b} -> нет, не является");
 }
+
